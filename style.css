@@ -1,0 +1,158 @@
+/* 
+Theme Name:		 ISupply
+Theme URI:		 http://www.madbeecreative.com
+Description:	 ISupply is a child theme of Bootstrap Four, created by ChildTheme-Generator.com
+Author:			 MadBee Creative
+Author URI:		 http://www.madbeecreative.com
+Template:		 bootstrap-four
+Version:		 1.0.0
+Text Domain:	 isupply
+*/
+
+
+@font-face{
+	font-family:'Metropolis';
+	src:url("http://65.39.128.43/~isupply/wp-content/themes/isupply/fonts/Metropolis-Light.otf");
+	font-weight: 300;
+}
+@font-face{
+	font-family:'Metropolis';
+	src:url("http://65.39.128.43/~isupply/wp-content/themes/isupply/fonts/Metropolis-Medium.otf");
+	font-weight: 500;	
+}
+@font-face{
+	font-family:'Metropolis';
+	src:url("http://65.39.128.43/~isupply/wp-content/themes/isupply/fonts/Metropolis-Bold.otf");
+	font-weight: 700;	
+}
+@font-face{
+	font-family:'Metropolis';
+	src:url("http://65.39.128.43/~isupply/wp-content/themes/isupply/fonts/Metropolis-LightItalic.otf");
+	font-style: italic;	
+}
+
+body, p {
+	font-family: "Metropolis", sans-serif !important;
+	color:#2c3342;	
+}
+body {
+	background-color: #eee !important;	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Metropolis", sans-serif !important;
+	color:#2c3342;
+}
+
+h1 {
+	font-size: 34px !important;
+	font-weight: 500 !important;
+	color: #0091b3 !important;
+}
+h4 {
+	font-size: 22px !important;
+	font-weight: 700 !important;
+	color: #0091b3 !important;
+}
+p {
+	background-color: transparent !important;
+}
+
+a {
+	color: #0091b3 !important;
+}
+.main-container {
+	background-color: transparent !important;
+}
+
+footer {
+	background-color: #262628;
+	color: #fff !important;
+}
+
+.footer-wrap {
+	color: #ffffff !important;
+	font-size: 12px;
+	font-weight: 300;
+}
+*:before, *:afer {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row:before, .row:after {
+	content: " ";
+	display: table;
+}
+
+.row-eq-height {
+	display: -webkit-box !important;
+	display: -webkit-flex !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
+.listing-entry-wrap {
+	margin-bottom: 20px !important;
+	background-color: #ffffff !important;
+	box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.25);
+}
+.listing-overview {
+	padding-left: 30px !important;
+	padding-right: 15px !important;
+	padding-bottom: 30px !important;
+	padding-top: 30px !important;
+}
+
+.post-text p {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+} 
+.background-pic {
+	background-size: cover;
+	background-position-x: 50%;
+	background-position-y: 50%;
+}
+
+.curve-up {
+	position: relative;
+	z-index: 20;
+	height: 105px;
+	width: 120%;
+	top: -105px;
+	margin-bottom: -105px;
+	margin-left: -10%;
+	margin-right: 10%;
+	border-radius: 200vh 200vh 0% 0% / 20vh 20vh 0% 0%;
+	-moz-border-radius: 200vh 200vh 0% 0% / 20vh 20vh 0% 0%;
+	-webkit-border-radius: 200vh 200vh 0% 0% / 20vh 20vh 0% 0%;
+}
+.curve-down {
+	position: relative;
+	z-index: 20;
+	height: 105px;
+	width: 120%;
+	margin-bottom: -105px;
+	margin-left: -10%
+	margin-right: 10%;
+	border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
+	-moz-border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
+	-webkit-border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
+}
+.curve-up.white, .curve-down.white {
+	background-color: #ffffff;
+}
+/* check if working */
+/*  Adminstrator section */
+.administrator-wrap {
+	border: 1px dashed #C0C0C0;
+}
